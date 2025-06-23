@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "name": "Barracat",
+    "address": "Barracat, 24270 Saint-Mesmin, France",
+    "latitude": 45.3483816,
+    "longitude": 1.2546564,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Boussac",
+    "address": "Boussac, 24270 Saint-Mesmin, France",
+    "latitude": 45.3419577,
+    "longitude": 1.2566266,
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Chacord",
+    "address": "Chacord, 24270 Saint-Mesmin, France",
+    "latitude": 45.3694063,
+    "longitude": 1.2466693,
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Charoncle",
+    "address": "Charoncle, 24270 Saint-Mesmin, France",
+    "latitude": 45.352799,
+    "longitude": 1.1938708,
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Château de Brussy",
+    "address": "Château de Brussy, 24270 Saint-Mesmin, France",
+    "latitude": 45.3581,
+    "longitude": 1.209,
+    "active": true
+  },
+  {
+    "id": 6,
+    "name": "Chez Bobas",
+    "address": "Chez Bobas, 24270 Saint-Mesmin, France",
+    "latitude": 45.3401391,
+    "longitude": 1.2252102,
+    "active": true
+  },
+  {
+    "id": 7,
+    "name": "Chez Réparat",
+    "address": "Chez Réparat, 24270 Saint-Mesmin, France",
+    "latitude": 45.343139,
+    "longitude": 1.2039595,
+    "active": true
+  },
+  {
+    "id": 8,
+    "name": "Fargeas",
+    "address": "Fargeas, 24270 Saint-Mesmin, France",
+    "latitude": 45.3716996,
+    "longitude": 1.2619768,
+    "active": true
+  },
+  {
+    "id": 9,
+    "name": "Forêt Noble",
+    "address": "Forêt Noble, 24270 Saint-Mesmin, France",
+    "latitude": 45.3536469,
+    "longitude": 1.2371322,
+    "active": true
+  },
+  {
+    "id": 10,
+    "name": "La Béchadie",
+    "address": "La Béchadie, 24270 Saint-Mesmin, France",
+    "latitude": 45.3463804,
+    "longitude": 1.2024336,
+    "active": true
+  },
+  {
+    "id": 11,
+    "name": "La Clautre",
+    "address": "La Clautre, 24270 Saint-Mesmin, France",
+    "latitude": 45.3403934,
+    "longitude": 1.2163703,
+    "active": true
+  },
+  {
+    "id": 12,
+    "name": "La Côte",
+    "address": "La Côte, 24270 Saint-Mesmin, France",
+    "latitude": 45.3481321,
+    "longitude": 1.2642076,
+    "active": true
+  },
+  {
+    "id": 13,
+    "name": "La Pierre Plate",
+    "address": "La Pierre Plate, 24270 Saint-Mesmin, France",
+    "latitude": 45.3447972,
+    "longitude": 1.2218706,
+    "active": true
+  },
+  {
+    "id": 14,
+    "name": "La Quintinie",
+    "address": "La Quintinie, 24270 Saint-Mesmin, France",
+    "latitude": 45.3399042,
+    "longitude": 1.2560306,
+    "active": true
+  },
+  {
+    "id": 15,
+    "name": "La Rouye",
+    "address": "La Rouye, 24270 Saint-Mesmin, France",
+    "latitude": 45.3303255,
+    "longitude": 1.2651606,
+    "active": true
+  },
+  {
+    "id": 16,
+    "name": "Las Peycharias",
+    "address": "Las Peycharias, 24270 Saint-Mesmin, France",
+    "latitude": 45.3449814,
+    "longitude": 1.2056936,
+    "active": true
+  },
+  {
+    "id": 17,
+    "name": "Lavaurie",
+    "address": "Lavaurie, 24270 Saint-Mesmin, France",
+    "latitude": 45.3552,
+    "longitude": 1.2053,
+    "active": false
+  },
+  {
+    "id": 18,
+    "name": "Le Belleu",
+    "address": "Le Belleu, 24270 Saint-Mesmin, France",
+    "latitude": 45.3539,
+    "longitude": 1.2081,
+    "active": false
+  },
+  {
+    "id": 19,
+    "name": "Le Bois de Chat",
+    "address": "Le Bois de Chat, 24270 Saint-Mesmin, France",
+    "latitude": 45.3529167,
+    "longitude": 1.2193159,
+    "active": true
+  },
+  {
+    "id": 20,
+    "name": "Le Bois Long",
+    "address": "Le Bois Long, 24270 Saint-Mesmin, France",
+    "latitude": 45.343962,
+    "longitude": 1.2524495,
+    "active": true
+  },
+  {
+    "id": 21,
+    "name": "Le Bourg",
+    "address": "Le Bourg, 24270 Saint-Mesmin, Dordogne, France",
+    "latitude": 45.35306,
+    "longitude": 1.20611,
+    "active": true
+  },
+  {
+    "id": 22,
+    "name": "Le Frugier",
+    "address": "Le Frugier, 24270 Saint-Mesmin, France",
+    "latitude": 45.3421608,
+    "longitude": 1.2147665,
+    "active": true
+  },
+  {
+    "id": 23,
+    "name": "Le Grand Clos",
+    "address": "Le Grand Clos, 24270 Saint-Mesmin, Dordogne, France",
+    "latitude": 45.356,
+    "longitude": 1.2045,
+    "active": false
+  },
+  {
+    "id": 24,
+    "name": "Le Mercier",
+    "address": "Le Mercier, 24270 Saint-Mesmin, France",
+    "latitude": 45.3398333,
+    "longitude": 1.2319294,
+    "active": true
+  },
+  {
+    "id": 25,
+    "name": "Le Moulin",
+    "address": "Le Moulin, 24270 Saint-Mesmin, France",
+    "latitude": 45.3548271,
+    "longitude": 1.1990153,
+    "active": true
+  },
+  {
+    "id": 26,
+    "name": "Le Pagnon",
+    "address": "Le Pagnon, 24270 Saint-Mesmin, France",
+    "latitude": 45.355,
+    "longitude": 1.207,
+    "active": false
+  },
+  {
+    "id": 27,
+    "name": "Le Tuquet",
+    "address": "Le Tuquet, 24270 Saint-Mesmin, France",
+    "latitude": 45.3564635,
+    "longitude": 1.238282,
+    "active": true
+  },
+  {
+    "id": 28,
+    "name": "Les Âges",
+    "address": "Les Âges, 24270 Saint-Mesmin, France",
+    "latitude": 45.3584544,
+    "longitude": 1.2692586,
+    "active": true
+  },
+  {
+    "id": 29,
+    "name": "Les Bessades",
+    "address": "Les Bessades, 24270 Saint-Mesmin, France",
+    "latitude": 45.3512666,
+    "longitude": 1.2114589,
+    "active": true
+  },
+  {
+    "id": 30,
+    "name": "Les Chaumettes",
+    "address": "Les Chaumettes, 24270 Saint-Mesmin, France",
+    "latitude": 45.3369963,
+    "longitude": 1.218522,
+    "active": true
+  },
+  {
+    "id": 31,
+    "name": "Les Jarthes",
+    "address": "Les Jarthes, 24270 Saint-Mesmin, France",
+    "latitude": 45.3397615,
+    "longitude": 1.2781382,
+    "active": true
+  },
+  {
+    "id": 32,
+    "name": "Les Monts",
+    "address": "Les Monts, 24270 Saint-Mesmin, France",
+    "latitude": 45.3655612,
+    "longitude": 1.2421221,
+    "active": true
+  },
+  {
+    "id": 33,
+    "name": "Les Petits Forts",
+    "address": "Les Petits Forts, 24270 Saint-Mesmin, France",
+    "latitude": 45.3363905,
+    "longitude": 1.2274175,
+    "active": true
+  },
+  {
+    "id": 34,
+    "name": "Leymarie",
+    "address": "Leymarie, 24270 Saint-Mesmin, France",
+    "latitude": 45.342054,
+    "longitude": 1.208718,
+    "active": true
+  },
+  {
+    "id": 35,
+    "name": "Linard",
+    "address": "Linard, 24270 Saint-Mesmin, France",
+    "latitude": 45.3740354,
+    "longitude": 1.2523326,
+    "active": true
+  },
+  {
+    "id": 36,
+    "name": "Mezurat",
+    "address": "Mezurat, 24270 Saint-Mesmin, France",
+    "latitude": 45.3569258,
+    "longitude": 1.2557921,
+    "active": true
+  },
+  {
+    "id": 37,
+    "name": "Mont Cocu",
+    "address": "Mont Cocu, 24270 Saint-Mesmin, France",
+    "latitude": 45.3343259,
+    "longitude": 1.2124835,
+    "active": true
+  },
+  {
+    "id": 38,
+    "name": "Poteau de Brussy",
+    "address": "Poteau de Brussy, 24270 Saint-Mesmin, France",
+    "latitude": 45.3454324,
+    "longitude": 1.251441,
+    "active": true
+  },
+  {
+    "id": 39,
+    "name": "Puy Chétif",
+    "address": "Puy Chétif, 24270 Saint-Mesmin, France",
+    "latitude": 45.3274464,
+    "longitude": 1.2195533,
+    "active": true
+  },
+  {
+    "id": 40,
+    "name": "Saint Dominique",
+    "address": "Saint Dominique, 24270 Saint-Mesmin, France",
+    "latitude": 45.3615331,
+    "longitude": 1.2617785,
+    "active": true
+  },
+  {
+    "id": 41,
+    "name": "Sainte Margueritte",
+    "address": "Sainte Margueritte, 24270 Saint-Mesmin, France",
+    "latitude": 45.3544,
+    "longitude": 1.2073,
+    "active": false
+  },
+  {
+    "id": 42,
+    "name": "Tournier Dubreuil",
+    "address": "Tournier Dubreuil, 24270 Saint-Mesmin, France",
+    "latitude": 45.3559,
+    "longitude": 1.2054,
+    "active": false
+  },
+  {
+    "id": 43,
+    "name": "Veau le Coteau",
+    "address": "Veau le Coteau, 24270 Saint-Mesmin, France",
+    "latitude": 45.3613754,
+    "longitude": 1.238417,
+    "active": true
+  },
+  {
+    "id": 44,
+    "name": "Veaupeytourie",
+    "address": "Veaupeytourie, 24270 Saint-Mesmin, France",
+    "latitude": 45.3603237,
+    "longitude": 1.2104007,
+    "active": true
+  }
+]
