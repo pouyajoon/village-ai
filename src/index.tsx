@@ -1,5 +1,5 @@
 /*
- ** EPITECH PROJECT, 2025
+ ** origamix, 2025
  ** village-ai
  ** File description:
  ** index
