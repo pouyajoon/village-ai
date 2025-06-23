@@ -12,9 +12,9 @@ import { useAtom } from "jotai";
 import {
   selectedVillagesAtom,
   filteredVillagesAtom,
-} from "./modules/villages/villages.atom";
-import VillageAutocomplete from "./components/VillageAutocomplete";
-import SelectionButtons from "./components/SelectionButtons";
+} from "../modules/villages/villages.atom";
+import VillageAutocomplete from "./VillageAutocomplete";
+import SelectionButtons from "./SelectionButtons";
 
 const VillageDrawerContent: React.FC = () => {
   const [filteredVillages] = useAtom(filteredVillagesAtom);

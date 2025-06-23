@@ -9,7 +9,9 @@ import { atom } from "jotai";
 import { Village } from "../../models/Village";
 import villagesData from "../../villages.json";
 
-export const villagesAtom = atom<Village[]>(villagesData);
+export const villagesAtom = atom<Village[]>(
+  villagesData.filter((village) => village.active),
+);
 
 export const selectedVillagesAtom = atom<number[]>(
   villagesData.map((village) => village.id),

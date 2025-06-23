@@ -5,6 +5,8 @@
  ** Tableau
  */
 
+"use client";
+
 import React from "react";
 import { useTranslation } from "react-i18next";
 import {
@@ -17,7 +19,7 @@ import {
   Paper,
 } from "@mui/material";
 import { useAtom } from "jotai";
-import { filteredVillagesAtom } from "./modules/villages/villages.atom";
+import { filteredVillagesAtom } from "@/app/modules/villages/villages.atom";
 
 const Tableau: React.FC = () => {
   const { t } = useTranslation();

@@ -13,7 +13,7 @@ import {
   ListItemButton,
 } from "@mui/material";
 
-import { Village } from "./models/Village";
+import { Village } from "../models/Village";
 
 interface VillageListItemProps {
   village: Village;
