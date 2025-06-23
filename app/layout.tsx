@@ -18,6 +18,8 @@ import VillageDrawerContent from "./components/VillageDrawer";
 import { useAtom } from "jotai";
 import { mobileOpenAtom } from "./modules/ui/ui.atom";
 import Link from "next/link";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 const drawerWidth = 240;
 
@@ -85,56 +87,58 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <Box sx={{ display: "flex" }}>
-                    <CssBaseline />
-                    <AppBar position="fixed" open={open}>
-                        <Toolbar>
-                            <IconButton
-                                color="inherit"
-                                aria-label="open drawer"
-                                onClick={handleDrawerOpen}
-                                edge="start"
-                                sx={{ mr: 2, ...(open && { display: "none" }) }}
-                            >
-                                <MenuIcon />
-                            </IconButton>
-                            <Button color="inherit" href="/table" LinkComponent={Link}>
-                                Tableau
-                            </Button>
-                            <Button color="inherit" href="/map" LinkComponent={Link}>
-                                Map
-                            </Button>
-                        </Toolbar>
-                    </AppBar>
-                    <MuiDrawer
-                        sx={{
-                            width: drawerWidth,
-                            flexShrink: 0,
-                            "& .MuiDrawer-paper": {
+                <I18nextProvider i18n={i18n}>
+                    <Box sx={{ display: "flex" }}>
+                        <CssBaseline />
+                        <AppBar position="fixed" open={open}>
+                            <Toolbar>
+                                <IconButton
+                                    color="inherit"
+                                    aria-label="open drawer"
+                                    onClick={handleDrawerOpen}
+                                    edge="start"
+                                    sx={{ mr: 2, ...(open && { display: "none" }) }}
+                                >
+                                    <MenuIcon />
+                                </IconButton>
+                                <Button color="inherit" href="/table" LinkComponent={Link}>
+                                    Tableau
+                                </Button>
+                                <Button color="inherit" href="/map" LinkComponent={Link}>
+                                    Map
+                                </Button>
+                            </Toolbar>
+                        </AppBar>
+                        <MuiDrawer
+                            sx={{
                                 width: drawerWidth,
-                                boxSizing: "border-box",
-                            },
-                        }}
-                        variant="persistent"
-                        anchor="left"
-                        open={open}
-                    >
-                        <DrawerHeader>
-                            <IconButton onClick={handleDrawerClose}>
-                                {theme.direction === "ltr" ? (
-                                    <ChevronLeftIcon />
-                                ) : (
-                                    <ChevronRightIcon />
-                                )}
-                            </IconButton>
-                        </DrawerHeader>
-                        <VillageDrawerContent />
-                    </MuiDrawer>
-                    <Main open={open}>
-                        <DrawerHeader />
-                        {children}
-                    </Main>
-                </Box>
+                                flexShrink: 0,
+                                "& .MuiDrawer-paper": {
+                                    width: drawerWidth,
+                                    boxSizing: "border-box",
+                                },
+                            }}
+                            variant="persistent"
+                            anchor="left"
+                            open={open}
+                        >
+                            <DrawerHeader>
+                                <IconButton onClick={handleDrawerClose}>
+                                    {theme.direction === "ltr" ? (
+                                        <ChevronLeftIcon />
+                                    ) : (
+                                        <ChevronRightIcon />
+                                    )}
+                                </IconButton>
+                            </DrawerHeader>
+                            <VillageDrawerContent />
+                        </MuiDrawer>
+                        <Main open={open}>
+                            <DrawerHeader />
+                            {children}
+                        </Main>
+                    </Box>
+                </I18nextProvider>
             </body>
         </html>
     );
