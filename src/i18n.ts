@@ -1,29 +1,36 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+/*
+ ** EPITECH PROJECT, 2025
+ ** village-ai
+ ** File description:
+ ** i18n
+ */
 
-import translationEN from './locales/en/translation.json';
-import translationFR from './locales/fr/translation.json';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+
+import translationEN from "./locales/en/translation.json";
+import translationFR from "./locales/fr/translation.json";
 
 const resources = {
-    en: {
-        translation: translationEN
-    },
-    fr: {
-        translation: translationFR
-    }
+  en: {
+    translation: translationEN,
+  },
+  fr: {
+    translation: translationFR,
+  },
 };
 
 i18n
-    .use(LanguageDetector)
-    .use(initReactI18next)
-    .init({
-        resources,
-        lng: 'fr', // set default language to French
-        fallbackLng: 'en',
-        interpolation: {
-            escapeValue: false
-        }
-    });
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources,
+    lng: "fr", // set default language to French
+    fallbackLng: "en",
+    interpolation: {
+      escapeValue: false,
+    },
+  });
 
 export default i18n;
